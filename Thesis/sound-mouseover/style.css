@@ -1,0 +1,42 @@
+    h1{
+	text-align: center;
+  	}
+
+    h2{
+    text-align: right;
+    }
+
+    h3{
+        text-align: center;
+        background-color: yellow;
+        width: 200px;
+
+    }
+
+    #info{
+    width: 440px;
+    margin: auto;
+    text-align: center;
+
+    }
+
+	#container {
+    width: 440px;
+    background-color: #ffcc33;
+    margin: auto;
+    text-align: center;
+	}
+	#first {
+    width: 200px;
+    float: left;
+    height: 200px;
+    background-color: blue;
+    margin: 10px;
+	}
+	#second {
+    width: 200px;
+    float: left;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+	}

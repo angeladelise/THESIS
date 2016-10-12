@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>SENSES - YOUR CART</title>
+  <meta name="description" content="SENSES">
+  <meta name="author" content="SENSES">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+  <script type="text/javascript" src="sound-mouseover.js"></script>
+
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+
+
+<body>
+	<audio id ="home">
+		<source src="home.ogg">
+	</audio>
+	
+	<audio id ="shirts">
+		<source src="shirts.ogg">
+	</audio>
+
+	<audio id ="pants">
+		<source src="pants.ogg">
+	</audio>
+
+	<audio id ="jackets">
+		<source src="jackets.ogg">
+	</audio>
+
+	<audio id ="shoes">
+		<source src="shoes.ogg">
+	</audio>
+
+	<h1>
+		<a href = "sense.html" onmouseover="playclipHome();">
+    		Welcome to Senses
+   		</a>
+ 	</h1>
+  
+	<div id="container">
+    	<div id="first" onmouseover="playclipShirts();">Shirts</div>
+    	<div id="second" onmouseover="playclipPants();">Pants</div>
+    	<div id="first" onmouseover="playclipJackets();">Jackets</div>
+    	<div id="second" onmouseover="playclipShoes();">Shoes</div>
+	</div>
+  
+
+</body>
+</html>

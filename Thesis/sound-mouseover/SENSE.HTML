@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>SENSES</title>
+  <meta name="description" content="SENSES">
+  <meta name="author" content="SENSES">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script type="text/javascript" src="sound-mouseover.js"></script>
+
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+
+
+<body>
+	<audio id ="welcome">
+		<source id="welcome" src="welcome.ogg">
+	</audio>
+	
+
+	<audio id ="men">
+		<source src="men.ogg">
+	</audio>
+
+	<audio id ="women">
+		<source src="women.ogg">
+	</audio>
+
+	<audio id ="shopping-cart-empty">
+		<source src="shopping-cart-empty.ogg">
+	</audio>
+
+
+	<h1 onmouseover="playclip();">
+    Welcome to Senses
+  	</h1>
+
+  	<h2>
+  		<a href="shopping-cart.html" onmouseover="playclipShoppingCartEmpty();">
+  		Shopping Cart
+  		</a>
+  	</h2>
+  
+	<div id="container">
+		<a href ="men.html">
+    		<div id="first" onmouseover="playclipMen();">Men</div>
+    	</a>
+
+    	<a href = "women.html">
+    		<div id="second" onmouseover="playclipWomen();">Women</div>
+    	</a>
+	</div>
+  
+
+</body>
+</html>

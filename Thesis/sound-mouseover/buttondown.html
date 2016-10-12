@@ -1,0 +1,102 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>SENSES - YOUR CART</title>
+  <meta name="description" content="SENSES">
+  <meta name="author" content="SENSES">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+  <script type="text/javascript" src="sound-mouseover.js"></script>
+
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+
+
+<body>
+	<audio id ="home">
+		<source src="home.ogg">
+	</audio>
+	
+	<audio id ="shirts">
+		<source src="shirts.ogg">
+	</audio>
+
+	<audio id ="price">
+		<source src="price-18.ogg">
+	</audio>
+
+	<audio id ="sizes">
+		<source src="sizes-SML.ogg">
+	</audio>
+
+	<audio id ="shirt-colors">
+		<source src="shirt-colors.ogg">
+	</audio>
+
+	<audio id ="description">
+		<source src="description.ogg">
+	</audio>
+
+	<audio id ="wash">
+		<source src="wash-instructions.ogg">
+	</audio>
+
+	<audio id ="addshoppingcart">
+		<source src="add-shopping-cart.ogg">
+	</audio>
+
+	<audio id ="addedshoppingcart">
+		<source src="added-shopping-cart.ogg">
+	</audio>
+
+	<h1>
+		<a href = "sense.html" onmouseover="playclipHome();">
+    		Welcome to Senses
+   		</a>
+ 	</h1>
+  
+	
+ 	<div id="info">
+ 		<img src ="buttondown.jpeg" style ="width:300px; height:400px">
+
+	    <h3 onmouseover="playclipPrice18();">
+	    	Price </br>
+	    	$18</br></br>
+	    </h3>
+	    <h3 onmouseover="playclipSizesSML();">
+	    	Sizes </br>
+	    	Small, Medium, Large </br></br>
+	    </h3>
+	    <h3 onmouseover="playclipShirtColors();">
+	    	Colors </br>
+	    	White, Black, Brown, Red </br></br>
+	    </h3>
+	    <h3 onmouseover = "playclipDescription();">
+	    	Description </br></br></br>
+	    </h3>
+	    <h3>
+	    	Material</br>
+	    	100% Cotton</br></br>
+	    </h3>
+	    <h3 onmouseover = "playclipWash();">
+	    	Wash </br>
+	    	Cold Wash Only</br></br>
+	    </h3>
+	    <h3 onmouseover = "playclipAddtoCart();" onClick = "playclipAddedtoCart();">
+	    	Add to Cart
+	    </h3>
+	 </div>
+	
+  
+
+</body>
+</html>
