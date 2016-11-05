@@ -63,14 +63,14 @@
         width: 200px;
         float: left;
         height: 200px;
-        background-color: blue;
+        background-color: rgb(173,216,230);
         margin: 10px;
 	}
 	#second {
         width: 200px;
         float: left;
         height: 200px;
-        background-color: red;
+        background-color: rgb(233,116,230);
         margin: 10px;
 	}
 
