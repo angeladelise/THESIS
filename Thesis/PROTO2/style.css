@@ -54,7 +54,7 @@
     }
 
 	#container {
-        width: 440px;
+        width: 800px;
         background-color: gray;
         margin: auto;
         text-align: center;
@@ -74,6 +74,13 @@
         margin: 10px;
 	}
 
+    #third {
+        width: 800px;
+        float: left;
+        height: 200px;
+        background-color: rgb(133,216,230);
+        margin: 10px;
+    }
     #item_list{
         width: 200px;
         float: left;
