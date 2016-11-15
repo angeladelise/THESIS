@@ -62,14 +62,14 @@
 	#first {
         width: 200px;
         float: left;
-        height: 200px;
+        height: 300px;
         background-color: rgb(173,216,230);
         margin: 10px;
 	}
 	#second {
         width: 200px;
         float: left;
-        height: 200px;
+        height: 300px;
         background-color: rgb(233,116,230);
         margin: 10px;
 	}
